@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Colorful.Console" Version="1.2.15" />
+      <PackageReference Include="LibGit2Sharp" Version="0.27.0-preview-0102" />
+      <PackageReference Include="Mono.Options" Version="6.6.0.161" />
+      <PackageReference Include="Terminal.Gui" Version="1.1.1" />
+    </ItemGroup>
+
+</Project>
